@@ -4,19 +4,30 @@
 }
 
 .gold {
-    float: left;
+    float: right;
     position: relative;
     width: 250px;
-    top: -50px;
+    
     padding: 50px 0;
     background: rgba(52, 152, 219, 1.0);
     text-align: center;
     border-radius: 5px;
 }
+
+
+
+#map {
+    margin-left: 200px;
+    height: 642px;
+    width: 500px;
+    text-align: center;
+}
+
 .gold .price {
     background: rgba(255, 255, 255, 1);
     color: rgba(0, 0, 0, 0.7);
 }
+
 .gold h1, h2, p, span {
     color: rgba(255, 255, 255, 1);
 }

@@ -3,32 +3,25 @@
 <html>
     <head>
         <link href="{% static 'css/graph.css' %}" rel="stylesheet" type="text/css">
-        <style>
-			/* Always set the map height explicitly to define the size of the div
-			* element that contains the map. */
-			#map {
-				height: 425px;
-				width: 500px;
-			}
-		</style>
     </head>
     <body>
-        <h1>hello world</h1>
-        <div class="container">
-            <div class="gold">
-                <h1>오늘의 수질</h1>
-                <h2>일요일</h2>
-                <div class="price">$25/m</div>
-                <p>Number of Courses</p>
-                <span>10</span>
-                <p>Downloads</p>
-                <span>Unlimited</span>
-                <p>Forums</p>
-                <span>Courses Only</span>
-                <button>Select Plan</button>
-            </div>
-        </div>
-		<div id="map"></div>
+    	<div id="contents">
+	        <div class="container">
+	            <div class="gold">
+	                <h1>오늘의 수질</h1>
+	                <h2>일요일</h2>
+	                <div class="price">$25/m</div>
+	                <p>Number of Courses</p>
+	                <span>10</span>
+	                <p>Downloads</p>
+	                <span>Unlimited</span>
+	                <p>Forums</p>
+	                <span>Courses Only</span>
+	                <button>Select Plan</button>
+	            </div>
+	        </div>
+			<div id="map"></div>
+		</div>
 		<script>
 			var map;
 			function initMap() {
